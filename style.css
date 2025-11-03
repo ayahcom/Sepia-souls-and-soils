@@ -1,0 +1,39 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+}
+
+body{
+      display: grid;
+      place-content: center;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      background: #540703;
+}
+
+.flipbook{
+      width: 1000px;
+      height: 600px;
+}
+.flipbook .page{
+      width: 500px;
+      height: 600px;
+      background-color: white;
+      border: 1px solid black;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      font-family: Arial, sans-serif;
+      /* Uncomment the next line if you want a background image on the page */
+      /* background-image: url(http://127.0.0.1:3002/pages/page13.png); */
+}
+.flipbook .page img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
